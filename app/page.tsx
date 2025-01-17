@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Login from "./login/Login";
 
 export default function Home() {
   return (
     <div>
-      <h1>My react-next app.!</h1>
+      <Login></Login>
     </div>
   );
 }
